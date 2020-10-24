@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heap Tree", "Heap Tree\Heap Tree.csproj", "{978A835B-48A3-4B1D-87A4-23E4C77DED11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heap Tree", "Heap Tree\Heap Tree.csproj", "{978A835B-48A3-4B1D-87A4-23E4C77DED11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeapTree.Tests", "HeapTree.Tests\HeapTree.Tests.csproj", "{4CF1DC7E-36D7-4E0A-B716-053A04B3DCDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{978A835B-48A3-4B1D-87A4-23E4C77DED11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{978A835B-48A3-4B1D-87A4-23E4C77DED11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{978A835B-48A3-4B1D-87A4-23E4C77DED11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF1DC7E-36D7-4E0A-B716-053A04B3DCDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF1DC7E-36D7-4E0A-B716-053A04B3DCDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF1DC7E-36D7-4E0A-B716-053A04B3DCDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF1DC7E-36D7-4E0A-B716-053A04B3DCDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

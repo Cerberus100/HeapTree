@@ -11,17 +11,17 @@ namespace Heap_Tree
         public List<T> list = new List<T>();
 
         //returns the index for the leftChild for a given index
-        private int findLeftChild (int i) 
+        public int findLeftChild (int i) 
         {
             return (i * 2) + 1;
         }
 
-        private int findRightChild (int i) //returns the index for the rightChild for an index
+        public int findRightChild (int i) //returns the index for the rightChild for an index
         {
             return (i * 2) + 2; 
         }
 
-        private int findParent (int i) //returns the index for the parent of an index
+        public int findParent (int i) //returns the index for the parent of an index
         {
             return (i - 1) / 2; 
         }

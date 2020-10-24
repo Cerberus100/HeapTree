@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Heap_Tree
 {
@@ -8,17 +9,23 @@ namespace Heap_Tree
         {
             var heap = new MinHeap<int>();
             var rand = new Random(42);
-            for (int a = 0; a < 10; a++)
+            int n = 100;
+            for (int a = 0; a < n; a++)
             {
                 heap.Insert(rand.Next(100));
-                ;
             }
 
-            //TODO: test if everything works
+            List<int> popped = new List<int>();
 
-            ;
 
-            var popped = heap.Pop(); 
+            for (int a = 0; a < n; a++)
+            {
+                popped.Add(heap.Pop ());
+            }
+
+            Console.WriteLine(popped.IsSortedAscending());
+
+            Console.WriteLine("billy".Reverse());
         }
     }
 }
